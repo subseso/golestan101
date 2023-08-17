@@ -1,0 +1,86 @@
+div.headmenu {
+  width: 100%;
+  height: 100px;
+  background-image: url(/image/header-back.png);
+  display: flex;
+  font-family: iransans; }
+  div.headmenu > div.headlogo {
+    width: 13.3%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 100px;
+    top: 45px; }
+    div.headmenu > div.headlogo > img {
+      width: 200px;
+      height: 105px;
+      object-fit: contain; }
+      div.headmenu > div.headlogo > img:hover {
+        cursor: pointer; }
+  div.headmenu > div.main-menu {
+    width: 100%;
+    height: inherit;
+    position: relative;
+    right: 80px;
+    direction: rtl; }
+    div.headmenu > div.main-menu > nav {
+      width: inherit;
+      height: auto; }
+      div.headmenu > div.main-menu > nav > ul {
+        width: inherit;
+        height: auto;
+        text-align: center;
+        list-style: none; }
+        div.headmenu > div.main-menu > nav > ul > li {
+          width: auto;
+          height: auto;
+          display: inline-block;
+          position: relative;
+          vertical-align: top;
+          transition: 300ms; }
+          div.headmenu > div.main-menu > nav > ul > li > a {
+            color: #afb2b4;
+            text-decoration: none;
+            width: inherit;
+            padding: 6px 15px;
+            display: inline-block;
+            line-height: 100px;
+            font-size: 17px;
+            transition: 300ms; }
+            div.headmenu > div.main-menu > nav > ul > li > a:hover {
+              color: white; }
+          div.headmenu > div.main-menu > nav > ul > li div.submenu {
+            width: auto;
+            height: auto;
+            background-color: aqua;
+            display: none; }
+            div.headmenu > div.main-menu > nav > ul > li div.submenu > ul {
+              width: inherit;
+              height: auto;
+              list-style: none;
+              text-align: right;
+              position: absolute;
+              top: 80px;
+              right: 0; }
+              div.headmenu > div.main-menu > nav > ul > li div.submenu > ul > li {
+                width: 190px;
+                height: auto;
+                background-color: #2d2d2d;
+                padding-right: 10px; }
+                div.headmenu > div.main-menu > nav > ul > li div.submenu > ul > li > a {
+                  color: #afb2b4;
+                  text-decoration: none;
+                  width: inherit;
+                  line-height: 43px;
+                  font-size: 17px;
+                  transition: 300ms; }
+                  div.headmenu > div.main-menu > nav > ul > li div.submenu > ul > li > a:hover {
+                    color: white; }
+          div.headmenu > div.main-menu > nav > ul > li:hover > div.submenu {
+            display: block; }
+
+header {
+  width: 100%;
+  height: 600px;
+  background-color: blue; }

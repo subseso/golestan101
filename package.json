@@ -1,0 +1,29 @@
+{
+  "name": "golestan101",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass": "node-sass -w public/sass -o public/css -r",
+    "xxl": "node-sass -w public/sass/xxl -o public/css/xxl -r",
+    "xl": "node-sass -w public/sass/xl -o public/css/xl -r",
+    "lg": "node-sass -w public/sass/lg -o public/css/lg -r",
+    "md": "node-sass -w public/sass/md -o public/css/md -r",
+    "sm": "node-sass -w public/sass/sm -o public/css/sm -r",
+    "xs": "node-sass -w public/sass/xs -o public/css/xs -r"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.64.2"
+  }
+}
