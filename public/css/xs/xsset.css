@@ -141,6 +141,9 @@ label[for="close"] {
 
 
 */
+div.headsec {
+  display: none; }
+
 header {
   width: 100%;
   height: 600px;

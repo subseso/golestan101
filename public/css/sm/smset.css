@@ -132,6 +132,9 @@ label[for="close"] {
 #close:checked ~ label[for="close"] {
   display: none; }
 
+div.headsec {
+  display: none; }
+
 header {
   width: 100%;
   height: 600px;
