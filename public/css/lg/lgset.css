@@ -1,7 +1,7 @@
 div.headmenu {
   width: 100%;
   height: 165px;
-  background-image: url(/image/header-back.png);
+  background-image: url(/img/header-back.png);
   text-align: center;
   font-family: iransans; }
   div.headmenu > div.headlogo {
@@ -78,6 +78,18 @@ div.headmenu {
                     color: white; }
           div.headmenu > div.main-menu > nav > ul > li:hover > div.submenu {
             display: block; }
+
+#close {
+  display: none; }
+
+#open {
+  display: none; }
+
+label[for="open"] {
+  display: none; }
+
+label[for="close"] {
+  display: none; }
 
 header {
   width: 100%;
