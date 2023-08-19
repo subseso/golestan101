@@ -1,0 +1,9 @@
+@import "./sectop";
+
+section {
+  > hr {
+    border: 1px solid #c8c8c8;
+    margin-top: 14px;
+    margin-bottom: 52px;
+  }
+}
