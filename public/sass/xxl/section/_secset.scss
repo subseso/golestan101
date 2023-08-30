@@ -1,9 +1,13 @@
 @import "./sectop";
+@import "./secmid";
 
 section {
-  > hr {
+  > hr.sechr-1 {
     border: 1px solid #c8c8c8;
     margin-top: 14px;
     margin-bottom: 52px;
+  }
+  > hr.sechr-2 {
+    border: 1px solid #c8c8c8;
   }
 }

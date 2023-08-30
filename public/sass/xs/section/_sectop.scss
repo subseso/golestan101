@@ -1,6 +1,6 @@
 div.topsec {
-  height: 1100px;
-  //   background-color: bisque;
+  height: 1000px;
+    // background-color: bisque;
   direction: rtl;
   font-family: iransans;
   > div.secdic {
@@ -60,5 +60,8 @@ div.topsec {
       text-align: justify;
       font-size: 15px;
     }
+  }
+  div.secpro{
+    display: none;
   }
 }

@@ -1,2 +1,10 @@
 @import "./sectop";
+@import "./secmid";
 
+section {
+  > hr.sechr-2 {
+    border: 1px solid #c8c8c8;
+    padding-bottom: 20px;
+  }
+
+}

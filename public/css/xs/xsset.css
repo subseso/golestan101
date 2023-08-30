@@ -145,7 +145,7 @@ div.headsec {
   display: none; }
 
 div.topsec {
-  height: 1100px;
+  height: 1000px;
   direction: rtl;
   font-family: iransans; }
   div.topsec > div.secdic {
@@ -186,3 +186,101 @@ div.topsec {
       color: #818588;
       text-align: justify;
       font-size: 15px; }
+  div.topsec div.secpro {
+    display: none; }
+
+div.midsec {
+  direction: rtl; }
+  div.midsec div.secartic {
+    width: 100%;
+    height: 900px;
+    position: relative; }
+    div.midsec div.secartic > img {
+      width: inherit;
+      height: 215px;
+      object-fit: cover; }
+    div.midsec div.secartic > div.secline {
+      width: 100%;
+      height: 20px;
+      display: none;
+      position: absolute;
+      bottom: 775px;
+      background-color: #e9d69f; }
+    div.midsec div.secartic div.articbox {
+      width: 100%;
+      height: 100px;
+      background-color: #ed1c24;
+      position: absolute;
+      bottom: 586px; }
+      div.midsec div.secartic div.articbox > p {
+        color: white;
+        font-size: 31px;
+        font-family: iransans;
+        font-weight: 100;
+        padding: 5px 20px 0px 0px; }
+      div.midsec div.secartic div.articbox > span {
+        color: white;
+        font-size: 20px;
+        font-family: iransans;
+        font-weight: 100;
+        padding: 5px 20px 0px 0px; }
+    div.midsec div.secartic hr {
+      border: 1px solid #c8c8c8;
+      margin-top: 10px;
+      margin-bottom: 30px; }
+    div.midsec div.secartic div.artictext {
+      width: 90%;
+      height: 300px;
+      margin: 0 auto;
+      padding-right: 10px;
+      padding-top: 120px; }
+      div.midsec div.secartic div.artictext > p {
+        font-size: 20px;
+        color: #ff0000;
+        font-family: iransans; }
+      div.midsec div.secartic div.artictext > span {
+        line-height: 35px;
+        color: #818588;
+        font-size: 16px;
+        text-align: justify;
+        position: relative;
+        font-family: iransans;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em; }
+      div.midsec div.secartic div.artictext > div.capbox-1 {
+        width: 350px;
+        height: 50px;
+        display: flex; }
+        div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2 {
+          width: 120px;
+          height: inherit;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 1px solid #c8c8c8;
+          border-radius: 8px;
+          margin-left: 5px;
+          transition: 300ms; }
+          div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2:hover {
+            background-color: #ed1c24;
+            cursor: pointer;
+            border: none; }
+          div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2:hover > p {
+            color: white; }
+          div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2 > p {
+            font-family: iransans;
+            color: #94979a;
+            font-size: 15px; }
+  div.midsec div.secbg {
+    background-image: url(../../../../img/recipe-baner-1.png);
+    height: 250px;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: inherit; }
+
+section > hr.sechr-2 {
+  padding-bottom: 15px;
+  border: 1px solid #c8c8c8; }
