@@ -3,6 +3,8 @@ div.headmenu {
   height: 100px;
   background-image: url(/Img/header-back.png);
   display: flex;
+  position: fixed;
+  z-index: 999;
   // position: relative;
   font-family: iransans;
   

@@ -2,6 +2,8 @@ div.headmenu {
   width: 100%;
   height: 200px;
   background-color: #262626;
+  position: fixed;
+  z-index: 999;
   font-family: iransans; }
   div.headmenu > div.headlogo {
     width: 200px;
@@ -147,7 +149,8 @@ div.headsec {
 div.topsec {
   height: 1000px;
   direction: rtl;
-  font-family: iransans; }
+  font-family: iransans;
+  padding-top: 230px; }
   div.topsec > div.secdic {
     width: 90%;
     height: 370px;

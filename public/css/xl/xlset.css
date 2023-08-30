@@ -3,6 +3,8 @@ div.headmenu {
   height: 100px;
   background-image: url(/img/header-back.png);
   display: flex;
+  position: fixed;
+  z-index: 999;
   font-family: iransans; }
   div.headmenu > div.headlogo {
     width: 13.3%;
@@ -99,7 +101,8 @@ div.headsec {
   justify-content: center;
   direction: rtl;
   font-family: iransans;
-  background-color: #ECECEC; }
+  background-color: #ECECEC;
+  padding-top: 100px; }
   div.headsec div.headdis {
     width: 28%;
     height: 280px;

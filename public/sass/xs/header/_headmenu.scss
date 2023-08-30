@@ -4,6 +4,8 @@ div.headmenu {
   // background-image: url('/img/header-back.png');
   background-color: #262626;
   // display: flex;
+  position: fixed;
+  z-index: 999;
   font-family: iransans;
   > div.headlogo {
     width: 200px;
