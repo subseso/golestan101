@@ -1,7 +1,7 @@
 div.headmenu {
   width: 100%;
   height: 100px;
-  background-image: url(/img/header-back.png);
+  background-image: url(/Img/header-back.png);
   display: flex;
   font-family: iransans; }
   div.headmenu > div.headlogo {
@@ -310,6 +310,91 @@ div.midsec {
     background-position: center;
     background-repeat: no-repeat;
     background-size: inherit; }
+
+div.endsec {
+  font-family: iransans;
+  direction: rtl; }
+  div.endsec div.endartic {
+    width: 100%;
+    height: 600px;
+    background-color: #105153;
+    border-bottom: 20px solid #e9d69f; }
+    div.endsec div.endartic > div.endartext {
+      width: 300px;
+      height: 40px;
+      margin: 0 auto;
+      padding-top: 250px;
+      text-align: center; }
+      div.endsec div.endartic > div.endartext > p {
+        color: #d5ece1;
+        font-size: 18px; }
+    div.endsec div.endartic > hr {
+      border: 1px solid #0a696d;
+      margin-bottom: 10px; }
+    div.endsec div.endartic div.endartitle {
+      width: 350px;
+      height: 45px;
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center; }
+      div.endsec div.endartic div.endartitle > p.title-1 {
+        color: #009da2;
+        font-size: 30px;
+        padding-right: 5px; }
+      div.endsec div.endartic div.endartitle > p.title-2 {
+        color: #00d8df;
+        font-size: 20px; }
+    div.endsec div.endartic div.endartsub {
+      width: 125px;
+      height: 30px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 2px; }
+      div.endsec div.endartic div.endartsub > p {
+        color: #bcbec0; }
+    div.endsec div.endartic div.endartimg {
+      width: 400px;
+      height: 350px;
+      margin: 0 auto;
+      z-index: 2; }
+  div.endsec hr {
+    margin-top: 25px; }
+  div.endsec div.endartic-2 {
+    width: 720px;
+    height: 270px;
+    margin: 0 auto;
+    padding-top: 150px; }
+    div.endsec div.endartic-2 > span {
+      font-size: 20px;
+      color: #ff0000; }
+    div.endsec div.endartic-2 > p {
+      line-height: 35px;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      color: #818588; }
+    div.endsec div.endartic-2 > div.endbox {
+      margin: 0px;
+      margin-top: 10px;
+      padding: 10px 20px;
+      border: 1px solid #c8c8c8;
+      border-radius: 8px;
+      color: #7c7d7e;
+      text-align: center;
+      font-size: 15px;
+      background-color: #ffffff;
+      text-decoration: none;
+      margin-left: 5px;
+      float: right;
+      transition: 300ms; }
+      div.endsec div.endartic-2 > div.endbox:hover {
+        color: #ffffff;
+        background-color: #ed1c24;
+        border: 1px solid #ed1c24;
+        cursor: pointer; }
 
 section > hr.sechr-1 {
   border: 1px solid #c8c8c8;
