@@ -312,7 +312,343 @@ div.midsec {
     background-repeat: no-repeat;
     background-size: inherit; }
 
+div.endsec {
+  font-family: iransans;
+  direction: rtl; }
+  div.endsec div.endartic {
+    width: 100%;
+    height: 600px;
+    background-color: #105153;
+    border-bottom: 20px solid #e9d69f; }
+    div.endsec div.endartic > div.endartext {
+      width: 300px;
+      height: 40px;
+      margin: 0 auto;
+      padding-top: 250px;
+      text-align: center; }
+      div.endsec div.endartic > div.endartext > p {
+        color: #d5ece1;
+        font-size: 18px; }
+    div.endsec div.endartic > hr {
+      border: 1px solid #0a696d;
+      margin-bottom: 10px; }
+    div.endsec div.endartic div.endartitle {
+      width: 350px;
+      height: 45px;
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center; }
+      div.endsec div.endartic div.endartitle > p.title-1 {
+        color: #009da2;
+        font-size: 30px;
+        padding-right: 5px; }
+      div.endsec div.endartic div.endartitle > p.title-2 {
+        color: #00d8df;
+        font-size: 20px; }
+    div.endsec div.endartic div.endartsub {
+      width: 125px;
+      height: 30px;
+      margin: 0 auto;
+      text-align: center;
+      margin-bottom: 2px; }
+      div.endsec div.endartic div.endartsub > p {
+        color: #bcbec0; }
+    div.endsec div.endartic div.endartimg {
+      width: 400px;
+      height: 350px;
+      margin: 0 auto;
+      z-index: 2; }
+  div.endsec hr {
+    margin-top: 25px; }
+  div.endsec div.endartic-2 {
+    width: 720px;
+    height: 270px;
+    margin: 0 auto;
+    padding-top: 150px; }
+    div.endsec div.endartic-2 > span {
+      font-size: 20px;
+      color: #ff0000; }
+    div.endsec div.endartic-2 > p {
+      line-height: 35px;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      color: #818588; }
+    div.endsec div.endartic-2 > div.endbox {
+      margin: 0px;
+      margin-top: 10px;
+      padding: 10px 20px;
+      border: 1px solid #c8c8c8;
+      border-radius: 8px;
+      color: #7c7d7e;
+      text-align: center;
+      font-size: 15px;
+      background-color: #ffffff;
+      text-decoration: none;
+      margin-left: 5px;
+      float: right;
+      transition: 300ms; }
+      div.endsec div.endartic-2 > div.endbox:hover {
+        color: #ffffff;
+        background-color: #ed1c24;
+        border: 1px solid #ed1c24;
+        cursor: pointer; }
+  div.endsec > div.endsocial {
+    width: 100%;
+    height: 130px;
+    background-color: #eeefef;
+    border-bottom: 30px solid #ED1C24;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    div.endsec > div.endsocial > div.socialicon-1 {
+      margin: 0px;
+      padding: 0px;
+      text-align: center;
+      background-image: url(/img/icon5-1.png);
+      background-repeat: no-repeat;
+      width: 55px;
+      height: 55px;
+      display: inline-block;
+      text-decoration: none;
+      border: 0px;
+      opacity: 0.4; }
+      div.endsec > div.endsocial > div.socialicon-1:hover {
+        background-image: url(/img/icon5.png);
+        opacity: 0.9;
+        cursor: pointer; }
+    div.endsec > div.endsocial > div.socialicon-2 {
+      margin: 0px;
+      padding-right: 3px;
+      text-align: center;
+      background-image: url(/img/icon4-1.png);
+      background-repeat: no-repeat;
+      width: 55px;
+      height: 55px;
+      display: inline-block;
+      text-decoration: none;
+      border: 0px;
+      opacity: 0.4; }
+      div.endsec > div.endsocial > div.socialicon-2:hover {
+        background-image: url(/img/icon4.png);
+        opacity: 0.9;
+        cursor: pointer; }
+    div.endsec > div.endsocial > div.socialicon-3 {
+      margin: 0px;
+      padding-right: 3px;
+      text-align: center;
+      background-image: url(/img/icon3-1.png);
+      background-repeat: no-repeat;
+      width: 55px;
+      height: 55px;
+      display: inline-block;
+      opacity: 0.4; }
+      div.endsec > div.endsocial > div.socialicon-3:hover {
+        background-image: url(/img/icon3.png);
+        opacity: 0.8;
+        cursor: pointer; }
+    div.endsec > div.endsocial div.socialicon-4 {
+      margin: 0px;
+      padding-right: 3px;
+      text-align: center;
+      background-image: url(/img/icon2-1.png);
+      background-repeat: no-repeat;
+      width: 55px;
+      height: 55px;
+      display: inline-block;
+      opacity: 0.4; }
+      div.endsec > div.endsocial div.socialicon-4:hover {
+        background-image: url(/img/icon2.png);
+        opacity: 0.8;
+        cursor: pointer; }
+    div.endsec > div.endsocial div.socialicon-5 {
+      margin: 0px;
+      padding-right: 3px;
+      text-align: center;
+      background-image: url(/img/icon1-1.png);
+      background-repeat: no-repeat;
+      width: 55px;
+      height: 55px;
+      display: inline-block;
+      opacity: 0.4; }
+      div.endsec > div.endsocial div.socialicon-5:hover {
+        background-image: url(/img/icon1.png);
+        opacity: 0.8;
+        cursor: pointer; }
+    div.endsec > div.endsocial div.socialicon-6 {
+      margin: 0px;
+      padding-right: 3px;
+      text-align: center;
+      background-image: url(/img/icon6-1.png);
+      background-repeat: no-repeat;
+      width: 55px;
+      height: 55px;
+      display: inline-block;
+      opacity: 0.4; }
+      div.endsec > div.endsocial div.socialicon-6:hover {
+        background-image: url(/img/icon6.png);
+        opacity: 0.8;
+        cursor: pointer; }
+
 section > hr {
   border: 1px solid #c8c8c8;
   margin-top: 14px;
   margin-bottom: 52px; }
+
+footer {
+  width: 100%;
+  height: 550px;
+  background-image: url(/img/header-back.png);
+  font-family: iransans;
+  direction: rtl; }
+  footer > div.footsec {
+    width: 680px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 50px; }
+    footer > div.footsec > div.footsec-1 {
+      width: 160px;
+      height: 280px; }
+      footer > div.footsec > div.footsec-1 > div.footimage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px; }
+      footer > div.footsec > div.footsec-1 > div.footitle {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #717273;
+        border-bottom: 1px solid #717273;
+        margin-bottom: 15px; }
+        footer > div.footsec > div.footsec-1 > div.footitle > p {
+          color: white;
+          font-size: 16px; }
+      footer > div.footsec > div.footsec-1 div.footext {
+        width: 100%;
+        height: 115px; }
+        footer > div.footsec > div.footsec-1 div.footext > p {
+          color: #bcbec0;
+          font-size: 15px;
+          transition: 300ms; }
+          footer > div.footsec > div.footsec-1 div.footext > p:hover {
+            color: white;
+            cursor: pointer; }
+    footer > div.footsec > div.footsec-2 {
+      width: 160px;
+      height: 280px;
+      margin-right: 20px; }
+      footer > div.footsec > div.footsec-2 > div.footimage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px; }
+      footer > div.footsec > div.footsec-2 > div.footitle {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #717273;
+        border-bottom: 1px solid #717273;
+        margin-bottom: 15px; }
+        footer > div.footsec > div.footsec-2 > div.footitle > p {
+          color: white;
+          font-size: 16px; }
+      footer > div.footsec > div.footsec-2 div.footext {
+        width: 100%;
+        height: 115px; }
+        footer > div.footsec > div.footsec-2 div.footext > p {
+          color: #bcbec0;
+          font-size: 15px;
+          transition: 300ms; }
+          footer > div.footsec > div.footsec-2 div.footext > p:hover {
+            color: white;
+            cursor: pointer; }
+    footer > div.footsec > div.footsec-3 {
+      width: 160px;
+      height: 280px;
+      margin-right: 20px; }
+      footer > div.footsec > div.footsec-3 > div.footimage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px; }
+      footer > div.footsec > div.footsec-3 > div.footitle {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #717273;
+        border-bottom: 1px solid #717273;
+        margin-bottom: 15px; }
+        footer > div.footsec > div.footsec-3 > div.footitle > p {
+          color: white;
+          font-size: 16px; }
+      footer > div.footsec > div.footsec-3 div.footext {
+        width: 100%;
+        height: 115px; }
+        footer > div.footsec > div.footsec-3 div.footext > p {
+          color: #bcbec0;
+          font-size: 15px;
+          transition: 300ms; }
+          footer > div.footsec > div.footsec-3 div.footext > p:hover {
+            color: white;
+            cursor: pointer; }
+    footer > div.footsec > div.footsec-4 {
+      width: 160px;
+      height: 280px;
+      margin-right: 20px; }
+      footer > div.footsec > div.footsec-4 > div.footimage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px; }
+      footer > div.footsec > div.footsec-4 > div.footitle {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #717273;
+        border-bottom: 1px solid #717273;
+        margin-bottom: 15px; }
+        footer > div.footsec > div.footsec-4 > div.footitle > p {
+          color: white;
+          font-size: 16px; }
+      footer > div.footsec > div.footsec-4 div.footext {
+        width: 100%;
+        height: 115px; }
+        footer > div.footsec > div.footsec-4 div.footext > p {
+          color: #bcbec0;
+          font-size: 15px;
+          transition: 300ms; }
+          footer > div.footsec > div.footsec-4 div.footext > p:hover {
+            color: white;
+            cursor: pointer; }
+  footer > div.footcredit {
+    width: 400px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px; }
+    footer > div.footcredit > p {
+      color: #9f9f9f;
+      font-size: 15px; }
+    footer > div.footcredit > div.footsubcreadit {
+      width: 100%;
+      height: 15px;
+      margin: 0 auto;
+      text-align: center; }
+      footer > div.footcredit > div.footsubcreadit > p {
+        color: #7b7b7b;
+        font-size: 14px; }

@@ -1,0 +1,193 @@
+footer {
+  width: 100%;
+  height: 550px;
+  background-image: url(/img/header-back.png);
+  font-family: iransans;
+  direction: rtl;
+  > div.footsec {
+    width: 680px;
+    height: 300px;
+    // background-color: aqua;\
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    > div.footsec-1 {
+      width: 160px;
+      height: 280px;
+    //   margin-right: 20px;
+      //   background-color: burlywood;
+      > div.footimage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+      }
+      > div.footitle {
+        width: 100%;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #717273;
+        border-bottom: 1px solid #717273;
+        margin-bottom: 15px;
+        > p {
+          color: white;
+          font-size: 16px;
+        }
+      }
+      div.footext {
+        width: 100%;
+        height: 115px;
+        > p {
+          color: #bcbec0;
+          font-size: 15px;
+          transition: 300ms;
+          &:hover{
+            color: white;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    > div.footsec-2 {
+        width: 160px;
+        height: 280px;
+        margin-right: 20px;
+        //   background-color: burlywood;
+        > div.footimage {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 10px;
+        }
+        > div.footitle {
+          width: 100%;
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-top: 1px solid #717273;
+          border-bottom: 1px solid #717273;
+          margin-bottom: 15px;
+          > p {
+            color: white;
+            font-size: 16px;
+          }
+        }
+        div.footext {
+          width: 100%;
+          height: 115px;
+          > p {
+            color: #bcbec0;
+            font-size: 15px;
+            transition: 300ms;
+            &:hover{
+              color: white;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      > div.footsec-3 {
+        width: 160px;
+        height: 280px;
+        margin-right: 20px;
+        //   background-color: burlywood;
+        > div.footimage {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 10px;
+        }
+        > div.footitle {
+          width: 100%;
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-top: 1px solid #717273;
+          border-bottom: 1px solid #717273;
+          margin-bottom: 15px;
+          > p {
+            color: white;
+            font-size: 16px;
+          }
+        }
+        div.footext {
+          width: 100%;
+          height: 115px;
+          > p {
+            color: #bcbec0;
+            font-size: 15px;
+            transition: 300ms;
+            &:hover{
+              color: white;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      > div.footsec-4 {
+        width: 160px;
+        height: 280px;
+        margin-right: 20px;
+        //   background-color: burlywood;
+        > div.footimage {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-bottom: 10px;
+        }
+        > div.footitle {
+          width: 100%;
+          height: 35px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-top: 1px solid #717273;
+          border-bottom: 1px solid #717273;
+          margin-bottom: 15px;
+          > p {
+            color: white;
+            font-size: 16px;
+          }
+        }
+        div.footext {
+          width: 100%;
+          height: 115px;
+          > p {
+            color: #bcbec0;
+            font-size: 15px;
+            transition: 300ms;
+            &:hover{
+              color: white;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+  }
+  >div.footcredit{
+    width: 400px;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+    >p{
+        color: #9f9f9f;
+        font-size: 15px;
+    }
+    >div.footsubcreadit{
+       width: 100%;
+       height: 15px;
+       margin: 0 auto;
+       text-align: center;
+       >p{
+           color: #7b7b7b;
+           font-size: 14px;
+       }
+     }
+  }
+}
