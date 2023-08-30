@@ -464,14 +464,16 @@ footer {
   font-family: iransans;
   direction: rtl; }
   footer > div.footsec {
-    width: 680px;
+    width: 100%;
     height: 300px;
     display: flex;
     justify-content: center;
     padding-top: 50px; }
     footer > div.footsec > div.footsec-1 {
-      width: 190px;
-      height: 280px; }
+      width: 33%;
+      height: 280px;
+      padding-left: 3%;
+      margin-right: 15px; }
       footer > div.footsec > div.footsec-1 > div.footimage {
         width: 100%;
         display: flex;
@@ -491,7 +493,8 @@ footer {
           font-size: 16px; }
       footer > div.footsec > div.footsec-1 div.footext {
         width: 100%;
-        height: 115px; }
+        height: 115px;
+        text-align: center; }
         footer > div.footsec > div.footsec-1 div.footext > p {
           color: #bcbec0;
           font-size: 15px;
@@ -500,9 +503,10 @@ footer {
             color: white;
             cursor: pointer; }
     footer > div.footsec > div.footsec-2 {
-      width: 190px;
+      width: 33%;
       height: 280px;
-      margin-right: 20px; }
+      margin-right: 15px;
+      padding-left: 3%; }
       footer > div.footsec > div.footsec-2 > div.footimage {
         width: 100%;
         display: flex;
@@ -522,7 +526,8 @@ footer {
           font-size: 16px; }
       footer > div.footsec > div.footsec-2 div.footext {
         width: 100%;
-        height: 115px; }
+        height: 115px;
+        text-align: center; }
         footer > div.footsec > div.footsec-2 div.footext > p {
           color: #bcbec0;
           font-size: 15px;
@@ -531,9 +536,10 @@ footer {
             color: white;
             cursor: pointer; }
     footer > div.footsec > div.footsec-3 {
-      width: 190px;
+      width: 33%;
       height: 280px;
-      margin-right: 20px; }
+      margin-right: 15px;
+      padding-left: 3%; }
       footer > div.footsec > div.footsec-3 > div.footimage {
         width: 100%;
         display: flex;
@@ -553,7 +559,8 @@ footer {
           font-size: 16px; }
       footer > div.footsec > div.footsec-3 div.footext {
         width: 100%;
-        height: 115px; }
+        height: 115px;
+        text-align: center; }
         footer > div.footsec > div.footsec-3 div.footext > p {
           color: #bcbec0;
           font-size: 15px;
