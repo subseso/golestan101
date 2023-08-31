@@ -1,99 +1,119 @@
 div.headmenu {
   width: 100%;
   height: 100px;
-  background-image: url(/img/header-back.png);
+  background-image: url(../../../img/header-back.png);
   display: flex;
   position: fixed;
   z-index: 999;
-  font-family: iransans; }
-  div.headmenu > div.headlogo {
-    width: 13.3%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    right: 100px;
-    top: 45px; }
-    div.headmenu > div.headlogo > img {
-      width: 200px;
-      height: 105px;
-      object-fit: contain; }
-      div.headmenu > div.headlogo > img:hover {
-        cursor: pointer; }
-  div.headmenu > div.main-menu {
-    width: 100%;
-    height: inherit;
-    position: relative;
-    right: 80px;
-    direction: rtl; }
-    div.headmenu > div.main-menu > nav {
-      width: inherit;
-      height: auto; }
-      div.headmenu > div.main-menu > nav > ul {
-        width: inherit;
-        height: auto;
-        text-align: center;
-        list-style: none; }
-        div.headmenu > div.main-menu > nav > ul > li {
-          width: auto;
-          height: auto;
-          display: inline-block;
-          position: relative;
-          vertical-align: top;
-          transition: 300ms; }
-          div.headmenu > div.main-menu > nav > ul > li > a {
-            color: #afb2b4;
-            text-decoration: none;
-            width: inherit;
-            padding: 6px 15px;
-            display: inline-block;
-            line-height: 100px;
-            font-size: 17px;
-            transition: 300ms; }
-            div.headmenu > div.main-menu > nav > ul > li > a:hover {
-              color: white; }
-          div.headmenu > div.main-menu > nav > ul > li div.submenu {
-            width: auto;
-            height: auto;
-            background-color: aqua;
-            display: none; }
-            div.headmenu > div.main-menu > nav > ul > li div.submenu > ul {
-              width: inherit;
-              height: auto;
-              list-style: none;
-              text-align: right;
-              position: absolute;
-              top: 80px;
-              right: 0;
-              z-index: 100; }
-              div.headmenu > div.main-menu > nav > ul > li div.submenu > ul > li {
-                width: 190px;
-                height: auto;
-                background-color: #2d2d2d;
-                padding-right: 10px; }
-                div.headmenu > div.main-menu > nav > ul > li div.submenu > ul > li > a {
-                  color: #afb2b4;
-                  text-decoration: none;
-                  width: inherit;
-                  line-height: 43px;
-                  font-size: 17px;
-                  transition: 300ms; }
-                  div.headmenu > div.main-menu > nav > ul > li div.submenu > ul > li > a:hover {
-                    color: white; }
-          div.headmenu > div.main-menu > nav > ul > li:hover > div.submenu {
-            display: block; }
+  font-family: iransans;
+}
+div.headmenu > div.headlogo {
+  width: 13.3%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 100px;
+  top: 45px;
+}
+div.headmenu > div.headlogo > img {
+  width: 200px;
+  height: 105px;
+  object-fit: contain;
+}
+div.headmenu > div.headlogo > img:hover {
+  cursor: pointer;
+}
+div.headmenu > div.main-menu {
+  width: 100%;
+  height: inherit;
+  position: relative;
+  right: 80px;
+  direction: rtl;
+}
+div.headmenu > div.main-menu > nav {
+  width: inherit;
+  height: auto;
+}
+div.headmenu > div.main-menu > nav > ul {
+  width: inherit;
+  height: auto;
+  text-align: center;
+  list-style: none;
+}
+div.headmenu > div.main-menu > nav > ul > li {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  transition: 300ms;
+}
+div.headmenu > div.main-menu > nav > ul > li > a {
+  color: #afb2b4;
+  text-decoration: none;
+  width: inherit;
+  padding: 6px 15px;
+  display: inline-block;
+  line-height: 100px;
+  font-size: 17px;
+  transition: 300ms;
+}
+div.headmenu > div.main-menu > nav > ul > li > a:hover {
+  color: white;
+}
+div.headmenu > div.main-menu > nav > ul > li div.submenu {
+  width: auto;
+  height: auto;
+  background-color: aqua;
+  display: none;
+}
+div.headmenu > div.main-menu > nav > ul > li div.submenu > ul {
+  width: inherit;
+  height: auto;
+  list-style: none;
+  text-align: right;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  z-index: 100;
+}
+div.headmenu > div.main-menu > nav > ul > li div.submenu > ul > li {
+  width: 190px;
+  height: auto;
+  background-color: #2d2d2d;
+  padding-right: 10px;
+}
+div.headmenu > div.main-menu > nav > ul > li div.submenu > ul > li > a {
+  color: #afb2b4;
+  text-decoration: none;
+  width: inherit;
+  line-height: 43px;
+  font-size: 17px;
+  transition: 300ms;
+}
+div.headmenu > div.main-menu > nav > ul > li div.submenu > ul > li > a:hover {
+  color: white;
+}
+div.headmenu > div.main-menu > nav > ul > li:hover > div.submenu {
+  display: block;
+}
 
 #close {
-  display: none; }
+  display: none;
+}
 
 #open {
-  display: none; }
+  display: none;
+}
 
 label[for="open"] {
-  display: none; }
+  display: none;
+}
 
 label[for="close"] {
-  display: none; }
+  display: none;
+}
 
 div.headsec {
   height: 500px;
@@ -101,557 +121,665 @@ div.headsec {
   justify-content: center;
   direction: rtl;
   font-family: iransans;
-  background-color: #ECECEC;
-  padding-top: 100px; }
-  div.headsec div.headdis {
-    width: 28%;
-    height: 280px;
-    position: relative;
-    left: 130px;
-    top: 100px; }
-    div.headsec div.headdis > div.headtitle {
-      width: 160px;
-      height: 50px; }
-      div.headsec div.headdis > div.headtitle > p {
-        font-size: 30px;
-        color: #ff0000; }
-    div.headsec div.headdis > div.headsub {
-      width: 130px;
-      height: 30px; }
-      div.headsec div.headdis > div.headsub > p {
-        font-size: 20px;
-        color: #58595b; }
-    div.headsec div.headdis > div.headtext {
-      width: 400px;
-      height: 80px;
-      margin-top: 30px; }
-      div.headsec div.headdis > div.headtext > span {
-        font-size: 16px;
-        color: #898989; }
-    div.headsec div.headdis > div.headbuttom {
-      width: 130px;
-      height: 50px;
-      margin-top: 30px;
-      transition: 300ms; }
-      div.headsec div.headdis > div.headbuttom > a {
-        padding: 10px 20px;
-        border: 1px solid #c8c8c8;
-        background-color: white;
-        border-radius: 8px;
-        text-decoration: none;
-        color: #7c7d7e;
-        text-align: center;
-        font-size: 15px;
-        float: right; }
-      div.headsec div.headdis > div.headbuttom :hover {
-        background-color: red;
-        color: white; }
-  div.headsec div.headimg {
-    width: 17.3%;
-    height: 320px;
-    position: relative;
-    right: 75px;
-    top: 50px; }
+  background-color: #ececec;
+  padding-top: 100px;
+}
+div.headsec div.headdis {
+  width: 28%;
+  height: 280px;
+  position: relative;
+  left: 130px;
+  top: 100px;
+}
+div.headsec div.headdis > div.headtitle {
+  width: 160px;
+  height: 50px;
+}
+div.headsec div.headdis > div.headtitle > p {
+  font-size: 30px;
+  color: #ff0000;
+}
+div.headsec div.headdis > div.headsub {
+  width: 130px;
+  height: 30px;
+}
+div.headsec div.headdis > div.headsub > p {
+  font-size: 20px;
+  color: #58595b;
+}
+div.headsec div.headdis > div.headtext {
+  width: 400px;
+  height: 80px;
+  margin-top: 30px;
+}
+div.headsec div.headdis > div.headtext > span {
+  font-size: 16px;
+  color: #898989;
+}
+div.headsec div.headdis > div.headbuttom {
+  width: 130px;
+  height: 50px;
+  margin-top: 30px;
+  transition: 300ms;
+}
+div.headsec div.headdis > div.headbuttom > a {
+  padding: 10px 20px;
+  border: 1px solid #c8c8c8;
+  background-color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #7c7d7e;
+  text-align: center;
+  font-size: 15px;
+  float: right;
+}
+div.headsec div.headdis > div.headbuttom :hover {
+  background-color: red;
+  color: white;
+}
+div.headsec div.headimg {
+  width: 17.3%;
+  height: 320px;
+  position: relative;
+  right: 75px;
+  top: 50px;
+}
 
 header {
   width: 100%;
   height: 600px;
-  background-color: blue; }
+  background-color: blue;
+}
 
 div.topsec {
   height: 1100px;
   direction: rtl;
-  font-family: iransans; }
-  div.topsec > div.secdic {
-    width: 710px;
-    height: 370px;
-    margin: 0 auto;
-    padding-bottom: 55px; }
-    div.topsec > div.secdic > div.sectitle {
-      width: 125px;
-      height: 30px; }
-      div.topsec > div.secdic > div.sectitle > p {
-        font-size: 20px;
-        color: #ff0000; }
-    div.topsec > div.secdic > div.sectext {
-      line-height: 35px;
-      display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      color: #818588;
-      text-align: justify; }
-  div.topsec div.secdic-2 {
-    width: 710px;
-    height: 160px;
-    margin: 0 auto; }
-    div.topsec div.secdic-2 > div.sectitle {
-      width: 160px;
-      height: 30px; }
-      div.topsec div.secdic-2 > div.sectitle > p {
-        font-size: 20px;
-        color: #ff0000; }
-    div.topsec div.secdic-2 > div.sectext {
-      line-height: 35px;
-      display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      color: #818588;
-      text-align: justify; }
-  div.topsec div.secpro {
-    width: 800px;
-    height: 240px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 150px; }
-    div.topsec div.secpro div.secpro-2 {
-      width: 200px;
-      height: inherit;
-      text-align: center;
-      margin-right: 15px;
-      border-bottom: solid 1px #e1ecf6fe; }
-      div.topsec div.secpro div.secpro-2 > img {
-        width: 190px;
-        height: 190px;
-        object-fit: contain; }
-      div.topsec div.secpro div.secpro-2 p {
-        color: #585858;
-        font-size: 17px;
-        padding-bottom: 8px; }
+  font-family: iransans;
+}
+div.topsec > div.secdic {
+  width: 710px;
+  height: 370px;
+  margin: 0 auto;
+  padding-bottom: 55px;
+}
+div.topsec > div.secdic > div.sectitle {
+  width: 125px;
+  height: 30px;
+}
+div.topsec > div.secdic > div.sectitle > p {
+  font-size: 20px;
+  color: #ff0000;
+}
+div.topsec > div.secdic > div.sectext {
+  line-height: 35px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #818588;
+  text-align: justify;
+}
+div.topsec div.secdic-2 {
+  width: 710px;
+  height: 160px;
+  margin: 0 auto;
+}
+div.topsec div.secdic-2 > div.sectitle {
+  width: 160px;
+  height: 30px;
+}
+div.topsec div.secdic-2 > div.sectitle > p {
+  font-size: 20px;
+  color: #ff0000;
+}
+div.topsec div.secdic-2 > div.sectext {
+  line-height: 35px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #818588;
+  text-align: justify;
+}
+div.topsec div.secpro {
+  width: 800px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+div.topsec div.secpro div.secpro-2 {
+  width: 200px;
+  height: inherit;
+  text-align: center;
+  margin-right: 15px;
+  border-bottom: solid 1px #e1ecf6fe;
+}
+div.topsec div.secpro div.secpro-2 > img {
+  width: 190px;
+  height: 190px;
+  object-fit: contain;
+}
+div.topsec div.secpro div.secpro-2 p {
+  color: #585858;
+  font-size: 17px;
+  padding-bottom: 8px;
+}
 
 div.midsec {
-  direction: rtl; }
-  div.midsec div.secartic {
-    width: 100%;
-    height: 950px;
-    position: relative; }
-    div.midsec div.secartic > img {
-      width: inherit;
-      height: 550px;
-      object-fit: cover; }
-    div.midsec div.secartic > div.secline {
-      width: 100%;
-      height: 20px;
-      position: absolute;
-      bottom: 400px;
-      background-color: #e9d69f; }
-    div.midsec div.secartic div.articbox {
-      width: 300px;
-      height: 100px;
-      background-color: #ed1c24;
-      position: absolute;
-      bottom: 400px;
-      right: 300px; }
-      div.midsec div.secartic div.articbox > p {
-        color: white;
-        font-size: 31px;
-        font-family: iransans;
-        font-weight: 100;
-        padding: 5px 20px 0px 0px; }
-      div.midsec div.secartic div.articbox > span {
-        color: white;
-        font-size: 20px;
-        font-family: iransans;
-        font-weight: 100;
-        padding: 5px 20px 0px 0px; }
-    div.midsec div.secartic hr {
-      border: 1px solid #c8c8c8;
-      margin-top: 10px;
-      margin-bottom: 30px; }
-    div.midsec div.secartic div.artictext {
-      width: 700px;
-      height: 300px;
-      margin: 0 auto;
-      padding-right: 10px;
-      padding-top: 15px; }
-      div.midsec div.secartic div.artictext > p {
-        font-size: 20px;
-        color: #ff0000;
-        font-family: iransans; }
-      div.midsec div.secartic div.artictext > span {
-        line-height: 35px;
-        color: #818588;
-        font-size: 16px;
-        text-align: justify;
-        position: relative;
-        font-family: iransans;
-        display: block;
-        margin-block-start: 1em;
-        margin-block-end: 1em; }
-      div.midsec div.secartic div.artictext > div.capbox-1 {
-        width: 350px;
-        height: 50px;
-        display: flex; }
-        div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2 {
-          width: 120px;
-          height: inherit;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border: 1px solid #c8c8c8;
-          border-radius: 8px;
-          margin-left: 5px;
-          transition: 300ms; }
-          div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2:hover {
-            background-color: #ed1c24;
-            cursor: pointer;
-            border: none; }
-          div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2:hover > p {
-            color: white; }
-          div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2 > p {
-            font-family: iransans;
-            color: #94979a;
-            font-size: 15px; }
-  div.midsec div.secbg {
-    background-image: url(../../../../img/recipe-baner-1.png);
-    height: 250px;
-    object-fit: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: inherit; }
+  direction: rtl;
+}
+div.midsec div.secartic {
+  width: 100%;
+  height: 950px;
+  position: relative;
+}
+div.midsec div.secartic > img {
+  width: inherit;
+  height: 550px;
+  object-fit: cover;
+}
+div.midsec div.secartic > div.secline {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 400px;
+  background-color: #e9d69f;
+}
+div.midsec div.secartic div.articbox {
+  width: 300px;
+  height: 100px;
+  background-color: #ed1c24;
+  position: absolute;
+  bottom: 400px;
+  right: 300px;
+}
+div.midsec div.secartic div.articbox > p {
+  color: white;
+  font-size: 31px;
+  font-family: iransans;
+  font-weight: 100;
+  padding: 5px 20px 0px 0px;
+}
+div.midsec div.secartic div.articbox > span {
+  color: white;
+  font-size: 20px;
+  font-family: iransans;
+  font-weight: 100;
+  padding: 5px 20px 0px 0px;
+}
+div.midsec div.secartic hr {
+  border: 1px solid #c8c8c8;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+div.midsec div.secartic div.artictext {
+  width: 700px;
+  height: 300px;
+  margin: 0 auto;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+div.midsec div.secartic div.artictext > p {
+  font-size: 20px;
+  color: #ff0000;
+  font-family: iransans;
+}
+div.midsec div.secartic div.artictext > span {
+  line-height: 35px;
+  color: #818588;
+  font-size: 16px;
+  text-align: justify;
+  position: relative;
+  font-family: iransans;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+div.midsec div.secartic div.artictext > div.capbox-1 {
+  width: 350px;
+  height: 50px;
+  display: flex;
+}
+div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2 {
+  width: 120px;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  margin-left: 5px;
+  transition: 300ms;
+}
+div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2:hover {
+  background-color: #ed1c24;
+  cursor: pointer;
+  border: none;
+}
+div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2:hover > p {
+  color: white;
+}
+div.midsec div.secartic div.artictext > div.capbox-1 > div.capbox-2 > p {
+  font-family: iransans;
+  color: #94979a;
+  font-size: 15px;
+}
+div.midsec div.secbg {
+  background-image: url(../../../../img/recipe-baner-1.png);
+  height: 250px;
+  object-fit: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: inherit;
+}
 
 div.endsec {
   font-family: iransans;
-  direction: rtl; }
-  div.endsec div.endartic {
-    width: 100%;
-    height: 600px;
-    background-color: #105153;
-    border-bottom: 20px solid #e9d69f; }
-    div.endsec div.endartic > div.endartext {
-      width: 300px;
-      height: 40px;
-      margin: 0 auto;
-      padding-top: 250px;
-      text-align: center; }
-      div.endsec div.endartic > div.endartext > p {
-        color: #d5ece1;
-        font-size: 18px; }
-    div.endsec div.endartic > hr {
-      border: 1px solid #0a696d;
-      margin-bottom: 10px; }
-    div.endsec div.endartic div.endartitle {
-      width: 350px;
-      height: 45px;
-      display: flex;
-      margin: 0 auto;
-      justify-content: center;
-      align-items: center; }
-      div.endsec div.endartic div.endartitle > p.title-1 {
-        color: #009da2;
-        font-size: 30px;
-        padding-right: 5px; }
-      div.endsec div.endartic div.endartitle > p.title-2 {
-        color: #00d8df;
-        font-size: 20px; }
-    div.endsec div.endartic div.endartsub {
-      width: 125px;
-      height: 30px;
-      margin: 0 auto;
-      text-align: center;
-      margin-bottom: 2px; }
-      div.endsec div.endartic div.endartsub > p {
-        color: #bcbec0; }
-    div.endsec div.endartic div.endartimg {
-      width: 400px;
-      height: 350px;
-      margin: 0 auto;
-      z-index: 2; }
-  div.endsec hr {
-    margin-top: 25px; }
-  div.endsec div.endartic-2 {
-    width: 720px;
-    height: 270px;
-    margin: 0 auto;
-    padding-top: 150px; }
-    div.endsec div.endartic-2 > span {
-      font-size: 20px;
-      color: #ff0000; }
-    div.endsec div.endartic-2 > p {
-      line-height: 35px;
-      display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-      color: #818588; }
-    div.endsec div.endartic-2 > div.endbox {
-      margin: 0px;
-      margin-top: 10px;
-      padding: 10px 20px;
-      border: 1px solid #c8c8c8;
-      border-radius: 8px;
-      color: #7c7d7e;
-      text-align: center;
-      font-size: 15px;
-      background-color: #ffffff;
-      text-decoration: none;
-      margin-left: 5px;
-      float: right;
-      transition: 300ms; }
-      div.endsec div.endartic-2 > div.endbox:hover {
-        color: #ffffff;
-        background-color: #ed1c24;
-        border: 1px solid #ed1c24;
-        cursor: pointer; }
-  div.endsec > div.endsocial {
-    width: 100%;
-    height: 130px;
-    background-color: #eeefef;
-    border-bottom: 30px solid #ED1C24;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-    div.endsec > div.endsocial > div.socialicon-1 {
-      margin: 0px;
-      padding: 0px;
-      text-align: center;
-      background-image: url(/img/icon5-1.png);
-      background-repeat: no-repeat;
-      width: 55px;
-      height: 55px;
-      display: inline-block;
-      text-decoration: none;
-      border: 0px;
-      opacity: 0.4; }
-      div.endsec > div.endsocial > div.socialicon-1:hover {
-        background-image: url(/img/icon5.png);
-        opacity: 0.9;
-        cursor: pointer; }
-    div.endsec > div.endsocial > div.socialicon-2 {
-      margin: 0px;
-      padding-right: 3px;
-      text-align: center;
-      background-image: url(/img/icon4-1.png);
-      background-repeat: no-repeat;
-      width: 55px;
-      height: 55px;
-      display: inline-block;
-      text-decoration: none;
-      border: 0px;
-      opacity: 0.4; }
-      div.endsec > div.endsocial > div.socialicon-2:hover {
-        background-image: url(/img/icon4.png);
-        opacity: 0.9;
-        cursor: pointer; }
-    div.endsec > div.endsocial > div.socialicon-3 {
-      margin: 0px;
-      padding-right: 3px;
-      text-align: center;
-      background-image: url(/img/icon3-1.png);
-      background-repeat: no-repeat;
-      width: 55px;
-      height: 55px;
-      display: inline-block;
-      opacity: 0.4; }
-      div.endsec > div.endsocial > div.socialicon-3:hover {
-        background-image: url(/img/icon3.png);
-        opacity: 0.8;
-        cursor: pointer; }
-    div.endsec > div.endsocial div.socialicon-4 {
-      margin: 0px;
-      padding-right: 3px;
-      text-align: center;
-      background-image: url(/img/icon2-1.png);
-      background-repeat: no-repeat;
-      width: 55px;
-      height: 55px;
-      display: inline-block;
-      opacity: 0.4; }
-      div.endsec > div.endsocial div.socialicon-4:hover {
-        background-image: url(/img/icon2.png);
-        opacity: 0.8;
-        cursor: pointer; }
-    div.endsec > div.endsocial div.socialicon-5 {
-      margin: 0px;
-      padding-right: 3px;
-      text-align: center;
-      background-image: url(/img/icon1-1.png);
-      background-repeat: no-repeat;
-      width: 55px;
-      height: 55px;
-      display: inline-block;
-      opacity: 0.4; }
-      div.endsec > div.endsocial div.socialicon-5:hover {
-        background-image: url(/img/icon1.png);
-        opacity: 0.8;
-        cursor: pointer; }
-    div.endsec > div.endsocial div.socialicon-6 {
-      margin: 0px;
-      padding-right: 3px;
-      text-align: center;
-      background-image: url(/img/icon6-1.png);
-      background-repeat: no-repeat;
-      width: 55px;
-      height: 55px;
-      display: inline-block;
-      opacity: 0.4; }
-      div.endsec > div.endsocial div.socialicon-6:hover {
-        background-image: url(/img/icon6.png);
-        opacity: 0.8;
-        cursor: pointer; }
+  direction: rtl;
+}
+div.endsec div.endartic {
+  width: 100%;
+  height: 600px;
+  background-color: #105153;
+  border-bottom: 20px solid #e9d69f;
+}
+div.endsec div.endartic > div.endartext {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  padding-top: 250px;
+  text-align: center;
+}
+div.endsec div.endartic > div.endartext > p {
+  color: #d5ece1;
+  font-size: 18px;
+}
+div.endsec div.endartic > hr {
+  border: 1px solid #0a696d;
+  margin-bottom: 10px;
+}
+div.endsec div.endartic div.endartitle {
+  width: 350px;
+  height: 45px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+div.endsec div.endartic div.endartitle > p.title-1 {
+  color: #009da2;
+  font-size: 30px;
+  padding-right: 5px;
+}
+div.endsec div.endartic div.endartitle > p.title-2 {
+  color: #00d8df;
+  font-size: 20px;
+}
+div.endsec div.endartic div.endartsub {
+  width: 125px;
+  height: 30px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2px;
+}
+div.endsec div.endartic div.endartsub > p {
+  color: #bcbec0;
+}
+div.endsec div.endartic div.endartimg {
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  z-index: 2;
+}
+div.endsec hr {
+  margin-top: 25px;
+}
+div.endsec div.endartic-2 {
+  width: 720px;
+  height: 270px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+div.endsec div.endartic-2 > span {
+  font-size: 20px;
+  color: #ff0000;
+}
+div.endsec div.endartic-2 > p {
+  line-height: 35px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #818588;
+}
+div.endsec div.endartic-2 > div.endbox {
+  margin: 0px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  color: #7c7d7e;
+  text-align: center;
+  font-size: 15px;
+  background-color: #ffffff;
+  text-decoration: none;
+  margin-left: 5px;
+  float: right;
+  transition: 300ms;
+}
+div.endsec div.endartic-2 > div.endbox:hover {
+  color: #ffffff;
+  background-color: #ed1c24;
+  border: 1px solid #ed1c24;
+  cursor: pointer;
+}
+div.endsec > div.endsocial {
+  width: 100%;
+  height: 130px;
+  background-color: #eeefef;
+  border-bottom: 30px solid #ed1c24;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.endsec > div.endsocial > div.socialicon-1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-image: url(/img/icon5-1.png);
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  text-decoration: none;
+  border: 0px;
+  opacity: 0.4;
+}
+div.endsec > div.endsocial > div.socialicon-1:hover {
+  background-image: url(/img/icon5.png);
+  opacity: 0.9;
+  cursor: pointer;
+}
+div.endsec > div.endsocial > div.socialicon-2 {
+  margin: 0px;
+  padding-right: 3px;
+  text-align: center;
+  background-image: url(/img/icon4-1.png);
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  text-decoration: none;
+  border: 0px;
+  opacity: 0.4;
+}
+div.endsec > div.endsocial > div.socialicon-2:hover {
+  background-image: url(/img/icon4.png);
+  opacity: 0.9;
+  cursor: pointer;
+}
+div.endsec > div.endsocial > div.socialicon-3 {
+  margin: 0px;
+  padding-right: 3px;
+  text-align: center;
+  background-image: url(/img/icon3-1.png);
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  opacity: 0.4;
+}
+div.endsec > div.endsocial > div.socialicon-3:hover {
+  background-image: url(/img/icon3.png);
+  opacity: 0.8;
+  cursor: pointer;
+}
+div.endsec > div.endsocial div.socialicon-4 {
+  margin: 0px;
+  padding-right: 3px;
+  text-align: center;
+  background-image: url(/img/icon2-1.png);
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  opacity: 0.4;
+}
+div.endsec > div.endsocial div.socialicon-4:hover {
+  background-image: url(/img/icon2.png);
+  opacity: 0.8;
+  cursor: pointer;
+}
+div.endsec > div.endsocial div.socialicon-5 {
+  margin: 0px;
+  padding-right: 3px;
+  text-align: center;
+  background-image: url(/img/icon1-1.png);
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  opacity: 0.4;
+}
+div.endsec > div.endsocial div.socialicon-5:hover {
+  background-image: url(/img/icon1.png);
+  opacity: 0.8;
+  cursor: pointer;
+}
+div.endsec > div.endsocial div.socialicon-6 {
+  margin: 0px;
+  padding-right: 3px;
+  text-align: center;
+  background-image: url(/img/icon6-1.png);
+  background-repeat: no-repeat;
+  width: 55px;
+  height: 55px;
+  display: inline-block;
+  opacity: 0.4;
+}
+div.endsec > div.endsocial div.socialicon-6:hover {
+  background-image: url(/img/icon6.png);
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 section > hr {
   border: 1px solid #c8c8c8;
   margin-top: 14px;
-  margin-bottom: 52px; }
+  margin-bottom: 52px;
+}
 
 footer {
   width: 100%;
   height: 550px;
-  background-image: url(/img/header-back.png);
+  background-image: url(../../../img/header-back.png);
   font-family: iransans;
-  direction: rtl; }
-  footer > div.footsec {
-    width: 680px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 50px; }
-    footer > div.footsec > div.footsec-1 {
-      width: 160px;
-      height: 280px; }
-      footer > div.footsec > div.footsec-1 > div.footimage {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px; }
-      footer > div.footsec > div.footsec-1 > div.footitle {
-        width: 100%;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-top: 1px solid #717273;
-        border-bottom: 1px solid #717273;
-        margin-bottom: 15px; }
-        footer > div.footsec > div.footsec-1 > div.footitle > p {
-          color: white;
-          font-size: 16px; }
-      footer > div.footsec > div.footsec-1 div.footext {
-        width: 100%;
-        height: 115px; }
-        footer > div.footsec > div.footsec-1 div.footext > p {
-          color: #bcbec0;
-          font-size: 15px;
-          transition: 300ms; }
-          footer > div.footsec > div.footsec-1 div.footext > p:hover {
-            color: white;
-            cursor: pointer; }
-    footer > div.footsec > div.footsec-2 {
-      width: 160px;
-      height: 280px;
-      margin-right: 20px; }
-      footer > div.footsec > div.footsec-2 > div.footimage {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px; }
-      footer > div.footsec > div.footsec-2 > div.footitle {
-        width: 100%;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-top: 1px solid #717273;
-        border-bottom: 1px solid #717273;
-        margin-bottom: 15px; }
-        footer > div.footsec > div.footsec-2 > div.footitle > p {
-          color: white;
-          font-size: 16px; }
-      footer > div.footsec > div.footsec-2 div.footext {
-        width: 100%;
-        height: 115px; }
-        footer > div.footsec > div.footsec-2 div.footext > p {
-          color: #bcbec0;
-          font-size: 15px;
-          transition: 300ms; }
-          footer > div.footsec > div.footsec-2 div.footext > p:hover {
-            color: white;
-            cursor: pointer; }
-    footer > div.footsec > div.footsec-3 {
-      width: 160px;
-      height: 280px;
-      margin-right: 20px; }
-      footer > div.footsec > div.footsec-3 > div.footimage {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px; }
-      footer > div.footsec > div.footsec-3 > div.footitle {
-        width: 100%;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-top: 1px solid #717273;
-        border-bottom: 1px solid #717273;
-        margin-bottom: 15px; }
-        footer > div.footsec > div.footsec-3 > div.footitle > p {
-          color: white;
-          font-size: 16px; }
-      footer > div.footsec > div.footsec-3 div.footext {
-        width: 100%;
-        height: 115px; }
-        footer > div.footsec > div.footsec-3 div.footext > p {
-          color: #bcbec0;
-          font-size: 15px;
-          transition: 300ms; }
-          footer > div.footsec > div.footsec-3 div.footext > p:hover {
-            color: white;
-            cursor: pointer; }
-    footer > div.footsec > div.footsec-4 {
-      width: 160px;
-      height: 280px;
-      margin-right: 20px; }
-      footer > div.footsec > div.footsec-4 > div.footimage {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin-bottom: 10px; }
-      footer > div.footsec > div.footsec-4 > div.footitle {
-        width: 100%;
-        height: 35px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-top: 1px solid #717273;
-        border-bottom: 1px solid #717273;
-        margin-bottom: 15px; }
-        footer > div.footsec > div.footsec-4 > div.footitle > p {
-          color: white;
-          font-size: 16px; }
-      footer > div.footsec > div.footsec-4 div.footext {
-        width: 100%;
-        height: 115px; }
-        footer > div.footsec > div.footsec-4 div.footext > p {
-          color: #bcbec0;
-          font-size: 15px;
-          transition: 300ms; }
-          footer > div.footsec > div.footsec-4 div.footext > p:hover {
-            color: white;
-            cursor: pointer; }
-  footer > div.footcredit {
-    width: 400px;
-    height: 20px;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 120px; }
-    footer > div.footcredit > p {
-      color: #9f9f9f;
-      font-size: 15px; }
-    footer > div.footcredit > div.footsubcreadit {
-      width: 100%;
-      height: 15px;
-      margin: 0 auto;
-      text-align: center; }
-      footer > div.footcredit > div.footsubcreadit > p {
-        color: #7b7b7b;
-        font-size: 14px; }
+  direction: rtl;
+}
+footer > div.footsec {
+  width: 680px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+footer > div.footsec > div.footsec-1 {
+  width: 160px;
+  height: 280px;
+}
+footer > div.footsec > div.footsec-1 > div.footimage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+footer > div.footsec > div.footsec-1 > div.footitle {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #717273;
+  border-bottom: 1px solid #717273;
+  margin-bottom: 15px;
+}
+footer > div.footsec > div.footsec-1 > div.footitle > p {
+  color: white;
+  font-size: 16px;
+}
+footer > div.footsec > div.footsec-1 div.footext {
+  width: 100%;
+  height: 115px;
+}
+footer > div.footsec > div.footsec-1 div.footext > p {
+  color: #bcbec0;
+  font-size: 15px;
+  transition: 300ms;
+}
+footer > div.footsec > div.footsec-1 div.footext > p:hover {
+  color: white;
+  cursor: pointer;
+}
+footer > div.footsec > div.footsec-2 {
+  width: 160px;
+  height: 280px;
+  margin-right: 20px;
+}
+footer > div.footsec > div.footsec-2 > div.footimage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+footer > div.footsec > div.footsec-2 > div.footitle {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #717273;
+  border-bottom: 1px solid #717273;
+  margin-bottom: 15px;
+}
+footer > div.footsec > div.footsec-2 > div.footitle > p {
+  color: white;
+  font-size: 16px;
+}
+footer > div.footsec > div.footsec-2 div.footext {
+  width: 100%;
+  height: 115px;
+}
+footer > div.footsec > div.footsec-2 div.footext > p {
+  color: #bcbec0;
+  font-size: 15px;
+  transition: 300ms;
+}
+footer > div.footsec > div.footsec-2 div.footext > p:hover {
+  color: white;
+  cursor: pointer;
+}
+footer > div.footsec > div.footsec-3 {
+  width: 160px;
+  height: 280px;
+  margin-right: 20px;
+}
+footer > div.footsec > div.footsec-3 > div.footimage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+footer > div.footsec > div.footsec-3 > div.footitle {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #717273;
+  border-bottom: 1px solid #717273;
+  margin-bottom: 15px;
+}
+footer > div.footsec > div.footsec-3 > div.footitle > p {
+  color: white;
+  font-size: 16px;
+}
+footer > div.footsec > div.footsec-3 div.footext {
+  width: 100%;
+  height: 115px;
+}
+footer > div.footsec > div.footsec-3 div.footext > p {
+  color: #bcbec0;
+  font-size: 15px;
+  transition: 300ms;
+}
+footer > div.footsec > div.footsec-3 div.footext > p:hover {
+  color: white;
+  cursor: pointer;
+}
+footer > div.footsec > div.footsec-4 {
+  width: 160px;
+  height: 280px;
+  margin-right: 20px;
+}
+footer > div.footsec > div.footsec-4 > div.footimage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+footer > div.footsec > div.footsec-4 > div.footitle {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #717273;
+  border-bottom: 1px solid #717273;
+  margin-bottom: 15px;
+}
+footer > div.footsec > div.footsec-4 > div.footitle > p {
+  color: white;
+  font-size: 16px;
+}
+footer > div.footsec > div.footsec-4 div.footext {
+  width: 100%;
+  height: 115px;
+}
+footer > div.footsec > div.footsec-4 div.footext > p {
+  color: #bcbec0;
+  font-size: 15px;
+  transition: 300ms;
+}
+footer > div.footsec > div.footsec-4 div.footext > p:hover {
+  color: white;
+  cursor: pointer;
+}
+footer > div.footcredit {
+  width: 400px;
+  height: 20px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 120px;
+}
+footer > div.footcredit > p {
+  color: #9f9f9f;
+  font-size: 15px;
+}
+footer > div.footcredit > div.footsubcreadit {
+  width: 100%;
+  height: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+footer > div.footcredit > div.footsubcreadit > p {
+  color: #7b7b7b;
+  font-size: 14px;
+}
