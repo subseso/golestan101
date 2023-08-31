@@ -12,8 +12,8 @@
 
 @font-face {
   font-family: iransans;
-  src: url(/font/IRANSansWeb-Medium.eot);
-  src: url(/font/IRANSansWeb-Medium.ttf);
-  src: url(/font/IRANSansWeb-Medium.woff);
-  src: url(/font/IRANSansWeb-Medium.woff2);
+  src: url(./../../font/IRANSansWeb-Medium.eot);
+  src: url(./../../font/IRANSansWeb-Medium.ttf);
+  src: url(./../../font/IRANSansWeb-Medium.woff);
+  src: url(./../../font/IRANSansWeb-Medium.woff2);
 }

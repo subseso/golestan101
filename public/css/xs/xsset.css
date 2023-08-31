@@ -457,7 +457,7 @@ div.endsec > div.endsocial > div.socialicon-1 {
   margin: 0px;
   padding: 0px;
   text-align: center;
-  background-image: url(/img/icon5-1.png);
+  background-image: url(../../../../img/icon5-1.png);
   background-repeat: no-repeat;
   width: 55px;
   height: 55px;
@@ -467,7 +467,7 @@ div.endsec > div.endsocial > div.socialicon-1 {
   opacity: 0.4;
 }
 div.endsec > div.endsocial > div.socialicon-1:hover {
-  background-image: url(/img/icon5.png);
+  background-image: url(../../../../img/icon5.png);
   opacity: 0.9;
   cursor: pointer;
 }
@@ -475,7 +475,7 @@ div.endsec > div.endsocial > div.socialicon-2 {
   margin: 0px;
   padding-right: 3px;
   text-align: center;
-  background-image: url(/img/icon4-1.png);
+  background-image: url(../../../../img/icon4-1.png);
   background-repeat: no-repeat;
   width: 55px;
   height: 55px;
@@ -485,7 +485,7 @@ div.endsec > div.endsocial > div.socialicon-2 {
   opacity: 0.4;
 }
 div.endsec > div.endsocial > div.socialicon-2:hover {
-  background-image: url(/img/icon4.png);
+  background-image: url(../../../../img/icon4.png);
   opacity: 0.9;
   cursor: pointer;
 }
@@ -493,7 +493,7 @@ div.endsec > div.endsocial > div.socialicon-3 {
   margin: 0px;
   padding-right: 3px;
   text-align: center;
-  background-image: url(/img/icon3-1.png);
+  background-image: url(../../../../img/icon3-1.png);
   background-repeat: no-repeat;
   width: 55px;
   height: 55px;
@@ -501,7 +501,7 @@ div.endsec > div.endsocial > div.socialicon-3 {
   opacity: 0.4;
 }
 div.endsec > div.endsocial > div.socialicon-3:hover {
-  background-image: url(/img/icon3.png);
+  background-image: url(../../../../img/icon3.png);
   opacity: 0.8;
   cursor: pointer;
 }
@@ -509,7 +509,7 @@ div.endsec > div.endsocial div.socialicon-4 {
   margin: 0px;
   padding-right: 3px;
   text-align: center;
-  background-image: url(/img/icon2-1.png);
+  background-image: url(../../../../img/icon2-1.png);
   background-repeat: no-repeat;
   width: 55px;
   height: 55px;
@@ -517,7 +517,7 @@ div.endsec > div.endsocial div.socialicon-4 {
   opacity: 0.4;
 }
 div.endsec > div.endsocial div.socialicon-4:hover {
-  background-image: url(/img/icon2.png);
+  background-image: url(../../../../img/icon2.png);
   opacity: 0.8;
   cursor: pointer;
 }
@@ -525,7 +525,7 @@ div.endsec > div.endsocial div.socialicon-5 {
   margin: 0px;
   padding-right: 3px;
   text-align: center;
-  background-image: url(/img/icon1-1.png);
+  background-image: url(../../../../img/icon1-1.png);
   background-repeat: no-repeat;
   width: 55px;
   height: 55px;
@@ -533,7 +533,7 @@ div.endsec > div.endsocial div.socialicon-5 {
   opacity: 0.4;
 }
 div.endsec > div.endsocial div.socialicon-5:hover {
-  background-image: url(/img/icon1.png);
+  background-image: url(../../../../img/icon1.png);
   opacity: 0.8;
   cursor: pointer;
 }
@@ -541,7 +541,7 @@ div.endsec > div.endsocial div.socialicon-6 {
   margin: 0px;
   padding-right: 3px;
   text-align: center;
-  background-image: url(/img/icon6-1.png);
+  background-image: url(../../../../img/icon6-1.png);
   background-repeat: no-repeat;
   width: 55px;
   height: 55px;
@@ -549,7 +549,7 @@ div.endsec > div.endsocial div.socialicon-6 {
   opacity: 0.4;
 }
 div.endsec > div.endsocial div.socialicon-6:hover {
-  background-image: url(/img/icon6.png);
+  background-image: url(../../../../img/icon6.png);
   opacity: 0.8;
   cursor: pointer;
 }
